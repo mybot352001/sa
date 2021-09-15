@@ -1,5 +1,6 @@
 #!/bin/bash
 pip3 install -r requirements.txt
+sleep 5
 python3 gensa.py --quick-setup $1
 python3 createmail.py
 zip -q accounts.zip accounts/
